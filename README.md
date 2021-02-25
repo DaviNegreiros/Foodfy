@@ -1,3 +1,3 @@
-![logo](main/assets/logo.png)
+![logo](Foodfy/assets/logo.png)
 # Foodfy
 Foodfy is a site of food recipes.
