@@ -4,6 +4,6 @@ Foodfy é um site de receitas, onde cada pessoa pode publicar sua própria recei
 <img src="https://user-images.githubusercontent.com/75706873/109162120-9a9ff880-7756-11eb-830f-f98273f2968a.gif" width="90%"></img>           
 (os bugs de cor no gif não ocorrem no site)
 ## Principais linguagens usadas:
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
