@@ -1,0 +1,166 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+
+:root {
+    --color-red-behind: #fbdfdb;
+    --color-link-normal: #111111;
+    --color-credits: #777777;
+    --color-footer: #EEEEEE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: white;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+footer {
+    text-align: center;
+    padding: 23px 0px;
+    background: var(--color-footer);
+    margin-top: 50px;
+}
+
+header {
+    padding: 36px;
+}
+body h2 {
+    margin: 50px 0px 20px 0px;
+}
+
+
+.links img {
+    margin: 0px 122px 0px 0px;
+}
+.links a {
+    text-decoration: none;
+    color: var(--color-link-normal);
+    font-size: 16px;
+    margin: 0 19px;
+}
+.links a:hover {
+    color: tomato;
+    transition: 700ms;
+}
+.footer-helper {
+    margin: 0px 230px;
+}
+#wrapper {
+    background-color: var(--color-red-behind);
+    border-radius: 32px;
+    padding: 60px;
+}
+#wrapper h1 {
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Roboto-Bold', sans-serif;
+    padding-top: 57px;
+}
+#wrapper h4 {
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-top: 10px;
+    max-width: 316px;
+}
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+    /*=== CARDS ===*/
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+}
+.card {
+    cursor: pointer;
+}
+.card__image-container img {
+    width: 300px;
+    height: 140px;
+    border-radius: 16px;
+}
+.card__content,
+.card__credits {
+    padding: 2.5px;
+}
+.card__content {
+    font-size: 21px;
+}
+.card__credits {
+    font-size: 16px;
+    color: var(--color-credits);
+}
+
+.text {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.margin-down-top {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#footer-helper {
+    margin-bottom: 134px;
+}
+/* === MODAL === */
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: white;
+    width: 660px;
+    height: 413px;
+    margin: 5vh auto;
+    position: relative;
+    border-radius: 16px;
+}
+
+.modal .close-modal {
+    color: #999999;
+    position: absolute;
+    right: 281px;
+    bottom: 30px;
+    cursor: pointer; /*maozinha*/
+}
+.modal-aligner {
+    text-align: center;
+    margin-top: 25vh;
+}
+/* === MODAL ACTIVE === */
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+#recipe-img {
+    width: 600px;
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+.recipe-name {
+    text-align: center;
+    font-size: 24px;
+}
+.recipe-author {
+    text-align: center;
+    font-size: 18px;
+    color: #777777;
+}
